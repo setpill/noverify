@@ -1132,24 +1132,13 @@ func (b *BlockWalker) handleArrayItems(arr node.Node, items []*expr.ArrayItem) b
 
 		haveKeys = true
 
-		var key string
-		var constKey bool
-
-		switch k := item.Key.(type) {
-		case *scalar.String:
-			key = unquote(k.Value)
-			constKey = true
-		case *scalar.Lnumber:
-			key = k.Value
-			constKey = true
-		}
-
-		if !constKey {
+		if !sideEffectFree(b.ctx.sc, b.r.st, b.ctx.customTypes, item.Key) {
 			continue
 		}
+		key := FmtNode(item.Key)
 
 		if _, ok := keys[key]; ok {
-			b.r.Report(item.Key, LevelWarning, "dupArrayKeys", "Duplicate array key '%s'", key)
+			b.r.Report(item.Key, LevelWarning, "dupArrayKeys", "Duplicate array key %s", key)
 		}
 
 		keys[key] = struct{}{}

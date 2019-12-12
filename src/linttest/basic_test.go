@@ -921,6 +921,44 @@ func TestAllowAssignmentInForLoop(t *testing.T) {
 	`)
 }
 
+func TestDuplicateArrayKeyExpr(t *testing.T) {
+	test := linttest.NewSuite(t)
+	test.AddFile(`<?php
+// Variable key.
+$x = 'k';
+$_ = [$x => 1, $x => 2];
+
+// Const key.
+const ARRKEY = 10;
+$_ = [ARRKEY => 1, ARRKEY => 2];
+
+// Class const key.
+class C1 {
+  const CLASSCONST = 10;
+  public static $key = 20;
+}
+$_ = [C1::CLASSCONST => 1, C1::CLASSCONST => 2];
+
+// TODO: #324
+// Array as a static class property.
+// class C2 {
+//   public static $links = [
+//     'a' => 0,
+//     C1::$key => 1,
+//     'b' => 2,
+//     C1::$key => 3,
+//     'c' => 4,
+//   ];
+// }
+`)
+	test.Expect = []string{
+		`Duplicate array key $x`,
+		`Duplicate array key ARRKEY`,
+		`Duplicate array key C1::CLASSCONST`,
+	}
+	test.RunAndMatch()
+}
+
 func TestDuplicateArrayKeyGood(t *testing.T) {
 	linttest.SimpleNegativeTest(t, `<?php
 $valid_quotes = [
