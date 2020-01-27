@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/VKCOM/noverify/src/inputs"
-	"github.com/VKCOM/noverify/src/rules"
+	"github.com/setpill/noverify/src/inputs"
+	"github.com/setpill/noverify/src/rules"
 )
 
 var (

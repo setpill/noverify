@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/VKCOM/noverify/src/meta"
+	"github.com/setpill/noverify/src/meta"
 )
 
 var sharedMixedType = map[string]struct{}{"mixed": {}}

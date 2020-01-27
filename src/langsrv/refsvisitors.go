@@ -3,16 +3,16 @@ package langsrv
 import (
 	"strings"
 
-	"github.com/VKCOM/noverify/src/linter"
-	"github.com/VKCOM/noverify/src/meta"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr/assign"
-	"github.com/VKCOM/noverify/src/php/parser/php7"
-	"github.com/VKCOM/noverify/src/php/parser/walker"
-	"github.com/VKCOM/noverify/src/solver"
-	"github.com/VKCOM/noverify/src/state"
-	"github.com/VKCOM/noverify/src/vscode"
+	"github.com/setpill/noverify/src/linter"
+	"github.com/setpill/noverify/src/meta"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/expr"
+	"github.com/setpill/noverify/src/php/parser/node/expr/assign"
+	"github.com/setpill/noverify/src/php/parser/php7"
+	"github.com/setpill/noverify/src/php/parser/walker"
+	"github.com/setpill/noverify/src/solver"
+	"github.com/setpill/noverify/src/state"
+	"github.com/setpill/noverify/src/vscode"
 )
 
 func findFunctionReferences(funcName string) []vscode.Location {

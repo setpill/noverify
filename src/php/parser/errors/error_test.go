@@ -5,8 +5,8 @@ import (
 
 	"gotest.tools/assert"
 
-	"github.com/VKCOM/noverify/src/php/parser/errors"
-	"github.com/VKCOM/noverify/src/php/parser/position"
+	"github.com/setpill/noverify/src/php/parser/errors"
+	"github.com/setpill/noverify/src/php/parser/position"
 )
 
 func TestConstructor(t *testing.T) {

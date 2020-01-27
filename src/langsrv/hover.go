@@ -1,11 +1,11 @@
 package langsrv
 
 import (
-	"github.com/VKCOM/noverify/src/meta"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr"
-	"github.com/VKCOM/noverify/src/php/parser/walker"
-	"github.com/VKCOM/noverify/src/state"
+	"github.com/setpill/noverify/src/meta"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/expr"
+	"github.com/setpill/noverify/src/php/parser/walker"
+	"github.com/setpill/noverify/src/state"
 )
 
 type hoverWalker struct {

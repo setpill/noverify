@@ -1,10 +1,10 @@
 package stmt
 
 import (
-	"github.com/VKCOM/noverify/src/php/parser/freefloating"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/position"
-	"github.com/VKCOM/noverify/src/php/parser/walker"
+	"github.com/setpill/noverify/src/php/parser/freefloating"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/position"
+	"github.com/setpill/noverify/src/php/parser/walker"
 )
 
 // PropertyList node

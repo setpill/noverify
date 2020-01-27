@@ -16,13 +16,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/VKCOM/noverify/src/git"
-	"github.com/VKCOM/noverify/src/inputs"
-	"github.com/VKCOM/noverify/src/lintdebug"
-	"github.com/VKCOM/noverify/src/meta"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/php7"
-	"github.com/VKCOM/noverify/src/rules"
+	"github.com/setpill/noverify/src/git"
+	"github.com/setpill/noverify/src/inputs"
+	"github.com/setpill/noverify/src/lintdebug"
+	"github.com/setpill/noverify/src/meta"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/php7"
+	"github.com/setpill/noverify/src/rules"
 	"github.com/karrick/godirwalk"
 )
 

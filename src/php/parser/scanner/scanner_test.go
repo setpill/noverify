@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/VKCOM/noverify/src/php/parser/freefloating"
-	"github.com/VKCOM/noverify/src/php/parser/position"
-	"github.com/VKCOM/noverify/src/php/parser/scanner"
+	"github.com/setpill/noverify/src/php/parser/freefloating"
+	"github.com/setpill/noverify/src/php/parser/position"
+	"github.com/setpill/noverify/src/php/parser/scanner"
 	"gotest.tools/assert"
 )
 

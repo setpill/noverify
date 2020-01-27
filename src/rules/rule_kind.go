@@ -1,13 +1,13 @@
 package rules
 
 import (
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr/assign"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr/binary"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr/cast"
-	"github.com/VKCOM/noverify/src/php/parser/node/scalar"
-	"github.com/VKCOM/noverify/src/php/parser/node/stmt"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/expr"
+	"github.com/setpill/noverify/src/php/parser/node/expr/assign"
+	"github.com/setpill/noverify/src/php/parser/node/expr/binary"
+	"github.com/setpill/noverify/src/php/parser/node/expr/cast"
+	"github.com/setpill/noverify/src/php/parser/node/scalar"
+	"github.com/setpill/noverify/src/php/parser/node/stmt"
 )
 
 type RuleKind int

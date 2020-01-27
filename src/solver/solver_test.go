@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/VKCOM/noverify/src/meta"
+	"github.com/setpill/noverify/src/meta"
 )
 
 func resolve(typ string) map[string]struct{} {

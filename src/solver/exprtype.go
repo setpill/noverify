@@ -4,14 +4,14 @@ import (
 	"log"
 	"strings"
 
-	"github.com/VKCOM/noverify/src/meta"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr/assign"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr/binary"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr/cast"
-	"github.com/VKCOM/noverify/src/php/parser/node/name"
-	"github.com/VKCOM/noverify/src/php/parser/node/scalar"
+	"github.com/setpill/noverify/src/meta"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/expr"
+	"github.com/setpill/noverify/src/php/parser/node/expr/assign"
+	"github.com/setpill/noverify/src/php/parser/node/expr/binary"
+	"github.com/setpill/noverify/src/php/parser/node/expr/cast"
+	"github.com/setpill/noverify/src/php/parser/node/name"
+	"github.com/setpill/noverify/src/php/parser/node/scalar"
 )
 
 func unaryMathOpType(sc *meta.Scope, cs *meta.ClassParseState, x node.Node, custom []CustomType) meta.TypesMap {

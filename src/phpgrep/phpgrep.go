@@ -1,7 +1,7 @@
 package phpgrep
 
 import (
-	"github.com/VKCOM/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node"
 )
 
 // Compiler creates matcher objects out of the string patterns.

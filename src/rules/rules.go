@@ -3,8 +3,8 @@ package rules
 import (
 	"io"
 
-	"github.com/VKCOM/noverify/src/phpdoc"
-	"github.com/VKCOM/noverify/src/phpgrep"
+	"github.com/setpill/noverify/src/phpdoc"
+	"github.com/setpill/noverify/src/phpgrep"
 )
 
 type Parser struct{}

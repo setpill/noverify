@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/VKCOM/noverify/src/php/parser/scanner"
+	"github.com/setpill/noverify/src/php/parser/scanner"
 )
 
 func TestTokenPoolGetNew(t *testing.T) {

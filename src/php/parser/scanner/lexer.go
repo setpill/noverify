@@ -8,9 +8,9 @@ import (
 	"io"
 	"unicode"
 
-	"github.com/VKCOM/noverify/src/php/parser/errors"
-	"github.com/VKCOM/noverify/src/php/parser/freefloating"
-	"github.com/VKCOM/noverify/src/php/parser/position"
+	"github.com/setpill/noverify/src/php/parser/errors"
+	"github.com/setpill/noverify/src/php/parser/freefloating"
+	"github.com/setpill/noverify/src/php/parser/position"
 
 	"github.com/cznic/golex/lex"
 )

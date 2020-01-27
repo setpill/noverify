@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/VKCOM/noverify/src/meta"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr"
-	"github.com/VKCOM/noverify/src/php/parser/node/name"
-	"github.com/VKCOM/noverify/src/php/parser/node/scalar"
-	"github.com/VKCOM/noverify/src/php/parser/printer"
-	"github.com/VKCOM/noverify/src/php/parser/walker"
-	"github.com/VKCOM/noverify/src/phpdoc"
-	"github.com/VKCOM/noverify/src/solver"
+	"github.com/setpill/noverify/src/meta"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/expr"
+	"github.com/setpill/noverify/src/php/parser/node/name"
+	"github.com/setpill/noverify/src/php/parser/node/scalar"
+	"github.com/setpill/noverify/src/php/parser/printer"
+	"github.com/setpill/noverify/src/php/parser/walker"
+	"github.com/setpill/noverify/src/phpdoc"
+	"github.com/setpill/noverify/src/solver"
 )
 
 // FmtNode is used for debug purposes and returns string representation of a specified node.

@@ -4,12 +4,12 @@ import (
 	"io"
 	"strings"
 
-	"github.com/VKCOM/noverify/src/php/parser/errors"
-	"github.com/VKCOM/noverify/src/php/parser/freefloating"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/parser"
-	"github.com/VKCOM/noverify/src/php/parser/position"
-	"github.com/VKCOM/noverify/src/php/parser/scanner"
+	"github.com/setpill/noverify/src/php/parser/errors"
+	"github.com/setpill/noverify/src/php/parser/freefloating"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/parser"
+	"github.com/setpill/noverify/src/php/parser/position"
+	"github.com/setpill/noverify/src/php/parser/scanner"
 )
 
 func (lval *yySymType) Token(t *scanner.Token) {

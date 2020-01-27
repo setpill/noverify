@@ -5,9 +5,9 @@ import (
 
 	"gotest.tools/assert"
 
-	"github.com/VKCOM/noverify/src/php/parser/freefloating"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/scalar"
+	"github.com/setpill/noverify/src/php/parser/freefloating"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/scalar"
 )
 
 var expected freefloating.Collection = freefloating.Collection{

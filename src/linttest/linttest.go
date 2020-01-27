@@ -7,10 +7,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/VKCOM/noverify/src/cmd"
-	"github.com/VKCOM/noverify/src/linter"
-	"github.com/VKCOM/noverify/src/meta"
-	"github.com/VKCOM/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/cmd"
+	"github.com/setpill/noverify/src/linter"
+	"github.com/setpill/noverify/src/meta"
+	"github.com/setpill/noverify/src/php/parser/node"
 )
 
 // SimpleNegativeTest runs linter over a single file out of given content

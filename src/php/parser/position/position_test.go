@@ -3,7 +3,7 @@ package position_test
 import (
 	"testing"
 
-	"github.com/VKCOM/noverify/src/php/parser/position"
+	"github.com/setpill/noverify/src/php/parser/position"
 )
 
 func TestPrintPosition(t *testing.T) {

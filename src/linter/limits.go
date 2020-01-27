@@ -1,6 +1,6 @@
 package linter
 
-import "github.com/VKCOM/noverify/src/lintdebug"
+import "github.com/setpill/noverify/src/lintdebug"
 
 // ParseWaiter waits to allow parsing of a file.
 type ParseWaiter struct {

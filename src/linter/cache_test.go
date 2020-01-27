@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/VKCOM/noverify/src/meta"
+	"github.com/setpill/noverify/src/meta"
 	"github.com/google/go-cmp/cmp"
 	"gotest.tools/assert"
 )

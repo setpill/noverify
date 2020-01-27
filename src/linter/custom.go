@@ -5,11 +5,11 @@ import (
 	"io"
 	"sort"
 
-	"github.com/VKCOM/noverify/src/linter/lintapi"
-	"github.com/VKCOM/noverify/src/meta"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/walker"
-	"github.com/VKCOM/noverify/src/vscode"
+	"github.com/setpill/noverify/src/linter/lintapi"
+	"github.com/setpill/noverify/src/meta"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/walker"
+	"github.com/setpill/noverify/src/vscode"
 )
 
 // MetaCacher is an interface for integrating checker-specific

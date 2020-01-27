@@ -6,16 +6,16 @@ import (
 	"flag"
 	"log"
 
-	"github.com/VKCOM/noverify/src/cmd"
-	"github.com/VKCOM/noverify/src/linter"
-	"github.com/VKCOM/noverify/src/meta"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr/binary"
-	"github.com/VKCOM/noverify/src/php/parser/node/name"
-	"github.com/VKCOM/noverify/src/php/parser/node/scalar"
-	"github.com/VKCOM/noverify/src/php/parser/walker"
-	"github.com/VKCOM/noverify/src/solver"
+	"github.com/setpill/noverify/src/cmd"
+	"github.com/setpill/noverify/src/linter"
+	"github.com/setpill/noverify/src/meta"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/expr"
+	"github.com/setpill/noverify/src/php/parser/node/expr/binary"
+	"github.com/setpill/noverify/src/php/parser/node/name"
+	"github.com/setpill/noverify/src/php/parser/node/scalar"
+	"github.com/setpill/noverify/src/php/parser/walker"
+	"github.com/setpill/noverify/src/solver"
 )
 
 func init() {

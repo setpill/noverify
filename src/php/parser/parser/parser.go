@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"github.com/VKCOM/noverify/src/php/parser/errors"
-	"github.com/VKCOM/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/errors"
+	"github.com/setpill/noverify/src/php/parser/node"
 )
 
 // Parser interface

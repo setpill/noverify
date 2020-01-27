@@ -5,11 +5,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/name"
-	"github.com/VKCOM/noverify/src/php/parser/node/stmt"
-	"github.com/VKCOM/noverify/src/php/parser/php7"
-	"github.com/VKCOM/noverify/src/php/parser/printer"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/name"
+	"github.com/setpill/noverify/src/php/parser/node/stmt"
+	"github.com/setpill/noverify/src/php/parser/php7"
+	"github.com/setpill/noverify/src/php/parser/printer"
 )
 
 func ExamplePrinter() {

@@ -5,7 +5,7 @@ import (
 
 	"gotest.tools/assert"
 
-	"github.com/VKCOM/noverify/src/php/parser/position"
+	"github.com/setpill/noverify/src/php/parser/position"
 )
 
 func TestPosition(t *testing.T) {

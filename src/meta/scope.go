@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/VKCOM/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node"
 )
 
 var debugScope = false

@@ -16,15 +16,15 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/VKCOM/noverify/src/cmd/stubs"
-	"github.com/VKCOM/noverify/src/langsrv"
-	"github.com/VKCOM/noverify/src/lintdebug"
-	"github.com/VKCOM/noverify/src/linter"
-	"github.com/VKCOM/noverify/src/meta"
-	"github.com/VKCOM/noverify/src/rules"
+	"github.com/setpill/noverify/src/cmd/stubs"
+	"github.com/setpill/noverify/src/langsrv"
+	"github.com/setpill/noverify/src/lintdebug"
+	"github.com/setpill/noverify/src/linter"
+	"github.com/setpill/noverify/src/meta"
+	"github.com/setpill/noverify/src/rules"
 )
 
-// Line below implies that we have `https://github.com/VKCOM/phpstorm-stubs.git` cloned
+// Line below implies that we have `https://github.com/setpill/phpstorm-stubs.git` cloned
 // to the `./src/cmd/stubs/phpstorm-stubs`.
 //
 //go:generate go-bindata -pkg stubs -nometadata -o ./stubs/phpstorm_stubs.go -ignore=\.idea -ignore=\.git ./stubs/phpstorm-stubs/...

@@ -1,8 +1,8 @@
 package scanner
 
 import (
-	"github.com/VKCOM/noverify/src/php/parser/freefloating"
-	"github.com/VKCOM/noverify/src/php/parser/position"
+	"github.com/setpill/noverify/src/php/parser/freefloating"
+	"github.com/setpill/noverify/src/php/parser/position"
 )
 
 // Token value returned by lexer

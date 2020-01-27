@@ -1,9 +1,9 @@
 package solver
 
 import (
-	"github.com/VKCOM/noverify/src/meta"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/name"
+	"github.com/setpill/noverify/src/meta"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/name"
 )
 
 // GetClassName resolves class name for specified class node (as used in static calls, property fetch, etc)

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/VKCOM/noverify/src/linttest"
+	"github.com/setpill/noverify/src/linttest"
 	"github.com/google/go-cmp/cmp"
 )
 

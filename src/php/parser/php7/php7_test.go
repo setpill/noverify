@@ -6,17 +6,17 @@ import (
 
 	"gotest.tools/assert"
 
-	"github.com/VKCOM/noverify/src/php/parser/errors"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr/assign"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr/binary"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr/cast"
-	"github.com/VKCOM/noverify/src/php/parser/node/name"
-	"github.com/VKCOM/noverify/src/php/parser/node/scalar"
-	"github.com/VKCOM/noverify/src/php/parser/node/stmt"
-	"github.com/VKCOM/noverify/src/php/parser/php7"
-	"github.com/VKCOM/noverify/src/php/parser/position"
+	"github.com/setpill/noverify/src/php/parser/errors"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/expr"
+	"github.com/setpill/noverify/src/php/parser/node/expr/assign"
+	"github.com/setpill/noverify/src/php/parser/node/expr/binary"
+	"github.com/setpill/noverify/src/php/parser/node/expr/cast"
+	"github.com/setpill/noverify/src/php/parser/node/name"
+	"github.com/setpill/noverify/src/php/parser/node/scalar"
+	"github.com/setpill/noverify/src/php/parser/node/stmt"
+	"github.com/setpill/noverify/src/php/parser/php7"
+	"github.com/setpill/noverify/src/php/parser/position"
 )
 
 func TestPhp7(t *testing.T) {

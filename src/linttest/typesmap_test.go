@@ -3,7 +3,7 @@ package linttest
 import (
 	"testing"
 
-	"github.com/VKCOM/noverify/src/meta"
+	"github.com/setpill/noverify/src/meta"
 )
 
 func TestEqualsMatching(t *testing.T) {

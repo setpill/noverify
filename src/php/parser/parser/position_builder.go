@@ -1,9 +1,9 @@
 package parser
 
 import (
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/position"
-	"github.com/VKCOM/noverify/src/php/parser/scanner"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/position"
+	"github.com/setpill/noverify/src/php/parser/scanner"
 )
 
 // PositionBuilder provide functions to constuct positions

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/VKCOM/noverify/src/php/parser/php7"
+	"github.com/setpill/noverify/src/php/parser/php7"
 )
 
 func BenchmarkPhp7(b *testing.B) {

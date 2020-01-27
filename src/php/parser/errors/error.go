@@ -3,7 +3,7 @@ package errors
 import (
 	"fmt"
 
-	"github.com/VKCOM/noverify/src/php/parser/position"
+	"github.com/setpill/noverify/src/php/parser/position"
 )
 
 // Error parsing error

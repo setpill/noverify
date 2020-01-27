@@ -1,6 +1,6 @@
 package freefloating
 
-import "github.com/VKCOM/noverify/src/php/parser/position"
+import "github.com/setpill/noverify/src/php/parser/position"
 
 type StringType int
 

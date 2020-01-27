@@ -3,7 +3,7 @@ package linter
 import (
 	"testing"
 
-	"github.com/VKCOM/noverify/src/phpdoc"
+	"github.com/setpill/noverify/src/phpdoc"
 )
 
 func TestTypeFilter(t *testing.T) {

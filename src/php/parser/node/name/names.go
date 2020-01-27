@@ -1,7 +1,7 @@
 package name
 
 import (
-	"github.com/VKCOM/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node"
 )
 
 // Names is generalizing the Name types

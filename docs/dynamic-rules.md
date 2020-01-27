@@ -21,7 +21,7 @@ They might also be more stable when they'll be fully released.
 
 Note that you can't express every single idea with this mechanism, but they work
 quite well for some of them. If rules are suitable for your goal, use them.
-If some feature is lacking in your opinion, [tell us about it](https://github.com/VKCOM/noverify/issues/new).
+If some feature is lacking in your opinion, [tell us about it](https://github.com/setpill/noverify/issues/new).
 
 Some examples of checks that can be described with rules:
 * Things related to function and method calls.
@@ -243,4 +243,4 @@ TODO.
 ### Development notes
 
 Dynamic rules features that are being developed and discussed:
-* [Multi-pattern rules syntax](https://github.com/VKCOM/noverify/issues/276)
+* [Multi-pattern rules syntax](https://github.com/setpill/noverify/issues/276)

@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/VKCOM/noverify/src/linter"
-	"github.com/VKCOM/noverify/src/linttest"
-	"github.com/VKCOM/noverify/src/rules"
+	"github.com/setpill/noverify/src/linter"
+	"github.com/setpill/noverify/src/linttest"
+	"github.com/setpill/noverify/src/rules"
 )
 
 func TestRulePathFilter(t *testing.T) {

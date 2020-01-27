@@ -1,8 +1,8 @@
 package linter
 
 import (
-	"github.com/VKCOM/noverify/src/meta"
-	"github.com/VKCOM/noverify/src/solver"
+	"github.com/setpill/noverify/src/meta"
+	"github.com/setpill/noverify/src/solver"
 )
 
 // blockContext is a state that is used to hold inner blocks info.

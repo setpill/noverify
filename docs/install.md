@@ -5,7 +5,7 @@ First you will need the Go toolchain (https://golang.org/).
 Once Go installed, do the following command:
 
 ```sh
-$ go get -u github.com/VKCOM/noverify
+$ go get -u github.com/setpill/noverify
 ```
 
 This command installs `noverify` into `$GOPATH/bin/noverify` (which expands into `$HOME/go/bin/noverify` by default).
@@ -13,10 +13,10 @@ This command installs `noverify` into `$GOPATH/bin/noverify` (which expands into
 Alternatively, you can build `noverify` with version info:
 
 ```sh
-mkdir -p $GOPATH/github.com/VKCOM
-git clone https://github.com/VKCOM/noverify.git $GOPATH/github.com/VKCOM
+mkdir -p $GOPATH/github.com/setpill
+git clone https://github.com/setpill/noverify.git $GOPATH/github.com/VKCOM
 
-cd $GOPATH/src/github.com/VKCOM/noverify
+cd $GOPATH/src/github.com/setpill/noverify
 make install
 ```
 

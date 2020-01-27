@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/VKCOM/noverify/src/linter"
-	"github.com/VKCOM/noverify/src/linttest"
-	"github.com/VKCOM/noverify/src/meta"
+	"github.com/setpill/noverify/src/linter"
+	"github.com/setpill/noverify/src/linttest"
+	"github.com/setpill/noverify/src/meta"
 )
 
 func TestForeachEmpty(t *testing.T) {

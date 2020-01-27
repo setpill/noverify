@@ -3,10 +3,10 @@ package phpgrep
 import (
 	"strings"
 
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/scalar"
-	"github.com/VKCOM/noverify/src/php/parser/node/stmt"
-	"github.com/VKCOM/noverify/src/php/parser/walker"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/scalar"
+	"github.com/setpill/noverify/src/php/parser/node/stmt"
+	"github.com/setpill/noverify/src/php/parser/walker"
 )
 
 type compiler struct {

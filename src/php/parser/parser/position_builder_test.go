@@ -3,11 +3,11 @@ package parser_test
 import (
 	"testing"
 
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/parser"
-	"github.com/VKCOM/noverify/src/php/parser/position"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/parser"
+	"github.com/setpill/noverify/src/php/parser/position"
 
-	"github.com/VKCOM/noverify/src/php/parser/scanner"
+	"github.com/setpill/noverify/src/php/parser/scanner"
 )
 
 func TestNewTokenPosition(t *testing.T) {

@@ -14,16 +14,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/VKCOM/noverify/src/lintdebug"
-	"github.com/VKCOM/noverify/src/linter"
-	"github.com/VKCOM/noverify/src/meta"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/expr"
-	"github.com/VKCOM/noverify/src/php/parser/node/name"
-	"github.com/VKCOM/noverify/src/php/parser/node/stmt"
-	"github.com/VKCOM/noverify/src/php/parser/php7"
-	"github.com/VKCOM/noverify/src/solver"
-	"github.com/VKCOM/noverify/src/vscode"
+	"github.com/setpill/noverify/src/lintdebug"
+	"github.com/setpill/noverify/src/linter"
+	"github.com/setpill/noverify/src/meta"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/expr"
+	"github.com/setpill/noverify/src/php/parser/node/name"
+	"github.com/setpill/noverify/src/php/parser/node/stmt"
+	"github.com/setpill/noverify/src/php/parser/php7"
+	"github.com/setpill/noverify/src/solver"
+	"github.com/setpill/noverify/src/vscode"
 )
 
 const maxLength = 16 << 20

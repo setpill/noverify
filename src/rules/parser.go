@@ -10,13 +10,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/VKCOM/noverify/src/linter/lintapi"
-	"github.com/VKCOM/noverify/src/php/parser/freefloating"
-	"github.com/VKCOM/noverify/src/php/parser/node"
-	"github.com/VKCOM/noverify/src/php/parser/node/stmt"
-	"github.com/VKCOM/noverify/src/php/parser/php7"
-	"github.com/VKCOM/noverify/src/phpdoc"
-	"github.com/VKCOM/noverify/src/phpgrep"
+	"github.com/setpill/noverify/src/linter/lintapi"
+	"github.com/setpill/noverify/src/php/parser/freefloating"
+	"github.com/setpill/noverify/src/php/parser/node"
+	"github.com/setpill/noverify/src/php/parser/node/stmt"
+	"github.com/setpill/noverify/src/php/parser/php7"
+	"github.com/setpill/noverify/src/phpdoc"
+	"github.com/setpill/noverify/src/phpgrep"
 )
 
 var magicComment = regexp.MustCompile(`\* @(?:warning|error|info|maybe) `)

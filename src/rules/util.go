@@ -3,7 +3,7 @@ package rules
 import (
 	"strings"
 
-	"github.com/VKCOM/noverify/src/linter/lintapi"
+	"github.com/setpill/noverify/src/linter/lintapi"
 )
 
 func formatRule(r *Rule) string {

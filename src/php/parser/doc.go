@@ -26,8 +26,8 @@ Package usage example:
 		"bytes"
 		"os"
 
-		"github.com/VKCOM/noverify/src/php/parser/php7"
-		"github.com/VKCOM/noverify/src/php/parser/visitor"
+		"github.com/setpill/noverify/src/php/parser/php7"
+		"github.com/setpill/noverify/src/php/parser/visitor"
 	)
 
 	func main() {
@@ -51,4 +51,4 @@ Package usage example:
 		rootNode.Walk(visitor)
 	}
 */
-package main // import "github.com/VKCOM/noverify/src/php/parser"
+package main // import "github.com/setpill/noverify/src/php/parser"

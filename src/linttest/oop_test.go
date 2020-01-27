@@ -3,7 +3,7 @@ package linttest_test
 import (
 	"testing"
 
-	"github.com/VKCOM/noverify/src/linttest"
+	"github.com/setpill/noverify/src/linttest"
 )
 
 func TestOldStyleConstructor(t *testing.T) {

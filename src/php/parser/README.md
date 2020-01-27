@@ -26,7 +26,7 @@ Features:
 Who Uses
 --------
 
-[VKCOM/noverify](https://github.com/VKCOM/noverify) - NoVerify is a pretty fast linter for PHP
+[setpill/noverify](https://github.com/VKCOM/noverify) - NoVerify is a pretty fast linter for PHP
 
 [quasilyte/phpgrep](https://github.com/quasilyte/phpgrep) - phpgrep is a tool for syntax-aware PHP code search
 
@@ -41,8 +41,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/VKCOM/noverify/src/php/parser/php7"
-	"github.com/VKCOM/noverify/src/php/parser/visitor"
+	"github.com/setpill/noverify/src/php/parser/php7"
+	"github.com/setpill/noverify/src/php/parser/visitor"
 )
 
 func main() {
