@@ -4,12 +4,14 @@ import (
 	"bytes"
 	"errors"
 	"log"
+	"os"
 	"os/exec"
 )
 
 // MergeBase computes merge base between commits one and two
 func MergeBase(gitDir string, one, two string) (res string, err error) {
 	cmd := exec.Command("git", "--git-dir="+gitDir, "merge-base", one, two)
+	cmd.Stderr = os.Stderr
 	defer cmd.Wait()
 
 	out, err := cmd.Output()
